@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form id="rentalForm">
+            <label for="carType">Seleccione un vehículo:</label>
+            <select id="carType" required>
+                <option value="bmw">BMW</option>
+                <option value="megane">Megane</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="twingo">Twingo</option>
+                <option value="chevrolet">Chevrolet Aveo</option>
+            </select>
+    
+            <label for="days">Número de días:</label>
+            <input type="number" id="days" min="1" required>
+    
+            <label for="insurance">¿Desea seguro?</label>
+            <input type="checkbox" id="insurance">
+    
+            <button type="submit">Calcular</button>
+        </form>
+    
+        <div id="result" style="margin-top: 20px;"></div>
+    
+        <script src="Punto1.js"></script>
+    </body>
+    </html>
+    
